@@ -19,10 +19,7 @@ public class Main {
                         arrayList.add(i);
                     }
                 }
-                System.out.println(count + " ,[");
-                for (int i = 0; i < arrayList.size(); i++) {
-                    System.out.println(arrayList.get(i));
-                }
+                System.out.println(count + "," + arrayList);
             }
             myReader.close();
         } catch (FileNotFoundException e) {
